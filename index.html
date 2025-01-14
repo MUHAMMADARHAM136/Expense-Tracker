@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <h1><marquee width="100%" direction="right" behavior="scroll" scrollamount="4">Expense Tracker</marquee></h1>
+        <div class="form-section">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="addTransaction">Add Transaction</button>
+        </div>
+        <div class="balance-section">
+            <h2>Balance: $<span id="balance">0.00</span></h2>
+        </div>
+        <div class="transaction-list">
+            <h2>Transactions</h2>
+            <ul id="transactionList"></ul>
+        </div>
+        <div class="chart-section">
+            <h2>Income vs Expenses</h2>
+            <canvas id="expenseChart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

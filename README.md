@@ -10,7 +10,8 @@ Custom Tooltips: Hover over transactions to view additional details.
 Dark Mode: Switch between light and dark themes with a single click.
 Data Persistence: All transactions and theme preferences are saved in localStorage.
 
-Demo 🎥 ![Screenshot (70)](https://github.com/user-attachments/assets/4357d7c6-89c7-4781-93f3-49e2bc389a80)
+Demo 🎥 ![Uploading Screenshot (70).png…]()
+
 
 Tech Stack 🛠️
 HTML5: Markup language for the structure.

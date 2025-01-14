@@ -9,3 +9,15 @@ Data Visualization: Displays income and expenses using a doughnut chart (powered
 Custom Tooltips: Hover over transactions to view additional details.
 Dark Mode: Switch between light and dark themes with a single click.
 Data Persistence: All transactions and theme preferences are saved in localStorage.
+
+Demo 🎥 ![Screenshot (70)](https://github.com/user-attachments/assets/4357d7c6-89c7-4781-93f3-49e2bc389a80)
+
+Tech Stack 🛠️
+HTML5: Markup language for the structure.
+CSS3: For styling, animations, and theme switching.
+JavaScript: Core functionality, dynamic updates, and logic.
+Chart.js: For visually appealing data charts.
+
+Getting Started 🌟
+Prerequisites
+A web browser (e.g., Chrome, Firefox, Edge).
